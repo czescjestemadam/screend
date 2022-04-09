@@ -68,7 +68,6 @@ void printHelp()
 	opt("-d", "--daemon", "start daemon");
 	opt("-r", "--reload", "reload config");
 	opt("-s", "--stop", "stop daemon");
-	opt("  ", "--fstop", "force remove pid file - soon");
 }
 
 void printConfig()
