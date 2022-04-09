@@ -5,6 +5,7 @@
 
 #include <csignal>
 #include <sys/syslog.h>
+#include <unistd.h>
 
 pid_t pid;
 Config* cfg;
