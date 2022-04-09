@@ -11,3 +11,9 @@ build: $(OBJS)
 
 clean:
 	rm $(OBJS)
+
+install:
+	cp screend /usr/local/bin/
+
+unsinstall:
+	rm /usr/local/bin/screend
